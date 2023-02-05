@@ -1,0 +1,2544 @@
+
+Username:pmgatepro
+Password:
+
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#show lldp nee 
+HCM0001SRT02#show lldp neighbors 
+Capability codes:
+    (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+    (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+
+Device ID           Local Intf     Hold-time  Capability      Port ID
+SGN0740SRT01        Te0/1          120        R               Gi0/0/10
+HCM0001ASW02        Gi0/5          120        B               GigabitEthernet0/0/3
+HCM0001AGG02        Te0/0          120        R               Gi0/0/1/8
+HCM7135ASW01        Gi0/7          120        B               GigabitEthernet0/0/2
+HCM0001ASW01        Gi0/4          120                        port e0/1/4
+
+Total entries displayed: 5
+
+HCM0001SRT02#          show int desc\
+                          ^
+% Invalid input detected at '^' marker.
+
+HCM0001SRT02#show int desc\ 
+Interface                      Status         Protocol Description
+Gi0/0                          down           down     3G-3HC001
+Gi0/1                          down           down     3G-PHC007
+Gi0/2                          up             up       HCM0001_DC3
+Gi0/3                          down           down     Giam_Sat_QoS_SHE_HCM0001
+Gi0/4                          up             up       HCM0001AS01_3100
+Gi0/5                          up             up       HCM0001AS02_5328
+Gi0/6                          down           down     eHCS0402
+Gi0/7                          up             up       HCM0001ASW03_EVNB_172.21.12.131
+Gi0/8                          down           down     eHCS0401B
+Gi0/9                          down           down     eHCS0401C
+Gi0/10                         down           down     eHCS0402C
+Gi0/11                         down           down     eHCS0402B
+Te0/0                          up             up       HCM0001AGG02
+Te0/1                          up             up       SGN0740SRT01_Te0/0
+Po5                            down           down     
+Po7                            up             up       HCM0001ASW03_EVNB B  _172.21.12.131
+Po8                            down           down     
+CE0/0                          up             up       HCM001_port_0
+Fa0/0                          admin down     down     
+CE0/1                          up             up       HCM001_port_0
+Vl1                            admin down     down     
+CE0/2                          up             up       HCM001_port_1
+CE0/3                          up             up       HCM001_port_1
+CE0/4                          up             up       HCM001_port_2
+CE0/5                          up             up       CHC007_port_1
+CE0/6                          up             up       CHC007_port_1
+Vl10                           down           down     3G-3HC001
+Vl20                           down           down     3G-PHC007
+Vl36                           up             up       
+Vl71                           up             up       HCM0001_DC3
+Vl72                           up             up       VRF_DCN_VIBA
+Vl73                           up             up       NMS_DSLAM-SWITCH
+Vl100                          up             up       HCM0001AGG02_Vlan200
+Vl200                          up             up       SGN0740SRT01_Vlan100
+Vl1000                         admin down     down     
+Vl2452                         up             up       WIFI_OFFLOAD_HCM0001
+Vl2502                         up             up       Multiscreen
+Vl2636                         down           down     eHCS0401
+Vl2637                         down           down     eHCS0401
+Vl3501                         up             up       VPN_THMILK_QUAN_1
+Vl3502                         up             up       t008_ow_namnhtnhhmtvhlv1
+Vl3503                         up             up       To_CMC_HoiSo_HCM
+Vl3504                         up             up       CITIBANK
+Vl3505                         admin down     down     VPN_NH_MIZUHO
+Vl3506                         up             up       VPN_NHVIETTHAI_HOISOQ1
+Vl3508                         up             up       BIDV_ChuongDuong_noihat
+ --More--         Vl3509                         admin down     down     t008_ow_thanhctcpckv1
+Vl3511                         up             up       L3VPN_VIB-HNI(DienLuc)
+Vl3888                         down           down     
+Lo0                            up             up       Service
+Lo1                            up             up       OAM
+Lo2                            up             up       PTP
+pw100001                       up             up       
+pw100002                       up             up       
+pw100003                       up             up       
+pw100004                       up             up       
+pw100005                       up             up       
+pw100006                       up             up       
+pw100007                       up             up       
+pw100008                       up             up       
+pw100009                       up             up       
+pw100010                       up             up       
+pw100011                       up             up       
+pw100012                       up             up       
+pw100013                       up             up       
+pw100014                       up             up       
+pw100015                       up             up       
+pw100016                       up             up       
+pw100017                       up             up       
+pw100018                       up             up       
+pw100019                       up             up       
+pw100020                       up             up       
+pw100021                       up             up       
+pw100022                       up             up       
+pw100023                       up             up       
+pw100024                       up             up       
+pw100025                       up             up       
+pw100026                       up             up       
+pw100027                       up             up       
+pw100028                       up             up       
+pw100029                       up             up       
+pw100030                       up             up       
+pw100031                       up             up       
+pw100032                       up             up       
+pw100033                       up             up       
+pw100034                       up             up       
+pw100035                       up             up       
+pw100036                       up             up       
+pw100037                       up             up       
+pw100038                       up             up       
+pw100039                       up             up       
+pw100040                       up             up       
+pw100041                       up             up       
+ --More--         pw100042                       up             up       
+pw100043                       up             up       
+pw100044                       up             up       
+pw100045                       up             up       
+pw100046                       up             up       
+pw100047                       up             up       
+pw100048                       up             up       
+pw100049                       up             up       
+pw100050                       up             up       
+pw100051                       up             up       
+pw100052                       up             up       
+pw100053                       up             up       
+pw100054                       up             up       
+pw100055                       up             up       
+pw100056                       up             up       
+pw100057                       up             up       
+pw100058                       up             up       
+pw100059                       up             up       
+pw100060                       up             up       
+pw100061                       up             up       
+pw100062                       up             up       
+pw100063                       up             up       
+pw100064                       up             up       
+pw100065                       up             up       
+pw100066                       up             up       
+pw100067                       up             up       
+pw100068                       up             up       
+pw100069                       up             up       
+pw100070                       up             up       
+HCM0001SRT02#                
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#show run int te0/0
+Building configuration...
+
+Current configuration : 676 bytes
+!
+interface TenGigabitEthernet0/0
+ description HCM0001AGG02
+ dampening 30 750 2000 120
+ mtu 9000
+ no ip address
+ load-interval 30
+ carrier-delay msec 0
+ negotiation auto
+ qos-config scheduling-mode min-bw-guarantee
+ ethernet oam link-monitor receive-crc window 50
+ ethernet oam link-monitor receive-crc threshold high 250
+ ethernet oam link-monitor transmit-crc window 50
+ ethernet oam link-monitor transmit-crc threshold high 250
+ ethernet oam link-monitor high-threshold action error-disable-interface
+ ethernet oam
+ service-policy input Trust_Ingress
+ service-policy output Queuing_Egress
+ service instance 100 ethernet
+  encapsulation untagged
+  bridge-domain 100
+ !
+end
+
+HCM0001SRT02#      
+HCM0001SRT02#show run int te0/0 1
+Building configuration...
+
+Current configuration : 685 bytes
+!
+interface TenGigabitEthernet0/1
+ description SGN0740SRT01_Te0/0
+ dampening 30 750 2000 120
+ mtu 9000
+ no ip address
+ load-interval 30
+ carrier-delay msec 0
+ no negotiation auto
+ qos-config scheduling-mode min-bw-guarantee
+ ethernet oam link-monitor receive-crc window 50
+ ethernet oam link-monitor receive-crc threshold high 250
+ ethernet oam link-monitor transmit-crc window 50
+ ethernet oam link-monitor transmit-crc threshold high 250
+ ethernet oam link-monitor high-threshold action error-disable-interface
+ ethernet oam
+ service-policy input Trust_Ingress
+ service-policy output Queuing_Egress
+ service instance 200 ethernet
+  encapsulation untagged
+  bridge-domain 200
+ !
+end
+
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#                  
+HCM0001SRT02#
+HCM0001SRT02#show ip ospf ne
+HCM0001SRT02#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+10.18.129.69      0   FULL/  -        00:00:39    10.18.5.10      Vlan200
+10.18.255.5       0   FULL/  -        00:00:36    10.18.5.5       Vlan100
+HCM0001SRT02# show run
+HCM0001SRT02# show running-config 
+Building configuration...
+
+Current configuration : 64040 bytes
+!
+! Last configuration change at 15:20:10 Hanoi Fri Oct 7 2022 by vipa
+! NVRAM config last updated at 14:15:56 Hanoi Mon Dec 5 2022 by ipncms
+!
+version 15.4
+service tcp-keepalives-in
+service tcp-keepalives-out
+service timestamps debug datetime msec
+service timestamps log datetime msec localtime
+service password-encryption
+service internal
+service unsupported-transceiver
+asr901-platf-multi-nni-cfm
+!
+hostname HCM0001SRT02
+!
+boot-start-marker
+boot system flash asr901-universalk9-mz-eng-sp-154-3S4V2
+boot system flash asr901-universalk9-mz.154-3.S2.bin
+boot-end-marker
+!
+!
+card type e1 0 0
+!
+aaa new-model
+!
+!
+aaa group server tacacs+ metro-tacacs
+ server-private 10.73.224.140 key 7 09414B1D0B0A0417081E013E
+ ip vrf forwarding NMS
+!
+aaa group server tacacs+ kv3_2019
+ server-private 10.73.66.63 key 7 09786E0A390604405B5E56
+ ip vrf forwarding NMS
+!
+aaa group server tacacs+ kv1_2019
+ server-private 10.60.60.88 key 7 046F2B052F225F1C594B57
+ ip vrf forwarding NMS
+!
+aaa authentication login default group kv3_2019 group kv1_2019 local
+aaa authorization config-commands
+aaa authorization commands 15 default group kv3_2019 group kv1_2019 local if-authenticated 
+aaa accounting commands 1 default start-stop group metro-tacacs
+aaa accounting commands 2 default start-stop group metro-tacacs
+aaa accounting commands 3 default start-stop group metro-tacacs
+aaa accounting commands 4 default start-stop group metro-tacacs
+aaa accounting commands 5 default start-stop group metro-tacacs
+aaa accounting commands 6 default start-stop group metro-tacacs
+aaa accounting commands 7 default start-stop group metro-tacacs
+aaa accounting commands 8 default start-stop group metro-tacacs
+aaa accounting commands 9 default start-stop group metro-tacacs
+aaa accounting commands 10 default start-stop group metro-tacacs
+aaa accounting commands 11 default start-stop group metro-tacacs
+aaa accounting commands 12 default start-stop group metro-tacacs
+aaa accounting commands 13 default start-stop group metro-tacacs
+aaa accounting commands 14 default start-stop group metro-tacacs
+aaa accounting commands 15 default start-stop group metro-tacacs
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone Hanoi 7 0
+errdisable recovery cause link-monitor-failure
+errdisable recovery cause oam-remote-failure critical-event
+errdisable recovery interval 10800
+ip cef
+!
+ip vrf 3G
+ rd 7552:201
+ route-target export 7552:202
+ route-target import 7552:201
+!
+ip vrf L3VPN_SOGIAODICH_HCM
+ rd 7552:53212
+ route-target export 7552:53212
+ route-target import 7552:53212
+!
+ip vrf L3VPN_VIB
+ rd 7552:23601
+ route-target export 7552:23601
+ route-target import 7552:23601
+!
+ip vrf NMS
+ rd 7552:50
+ route-target export 7552:3302
+ route-target import 7552:3319
+!
+ip vrf NMS_DSLAM
+ rd 7552:472
+ route-target export 7552:473
+ route-target import 7552:472
+!
+ip vrf VOD
+ rd 7552:1042
+ route-target export 7552:1043
+ route-target import 7552:1042
+!
+ip vrf VRF_4G_OAM
+ rd 7552:3321
+ route-target export 7552:3323
+ route-target import 7552:3322
+!
+ip vrf VRF_4G_Service
+ rd 7552:63
+ route-target export 7552:65
+ route-target import 7552:64
+!
+ip vrf VRF_BIDV
+ rd 7552:20528
+ route-target export 7552:20528
+ route-target import 7552:20528
+!
+ip vrf VRF_CITIBANK
+ rd 7552:20547
+ route-target export 7552:20547
+ route-target import 7552:20547
+!
+ip vrf VRF_CMC
+ rd 7552:12004
+ route-target export 7552:12004
+ route-target import 7552:12004
+!
+ip vrf VRF_DCN_VIBA
+ rd 7552:400
+ route-target export 7552:400
+ route-target import 7552:400
+!
+ip vrf VRF_NH_VIETTHAI
+ rd 7552:20575
+ route-target export 7552:20575
+ route-target import 7552:20575
+!
+ip vrf VRF_SMARTCABINET
+ rd 7552:3
+ route-target export 7552:3
+ route-target import 7552:3
+!
+ip vrf VRF_THMILK
+ rd 7552:20526
+ route-target export 7552:20526
+ route-target import 7552:20526
+!
+ip vrf VRF_VIETTINBANK
+ rd 7552:20552
+ route-target export 7552:20552
+ route-target import 7552:20552
+!
+ip vrf VRF_VOD_MSN
+ rd 7552:1041
+ route-target export 7552:1077
+ route-target import 7552:1041
+ route-target import 7552:1057
+ route-target import 7552:7016
+ route-target import 7552:7014
+!
+ip vrf WIFI_OFFLOAD
+ rd 7552:23688
+ route-target export 7552:23688
+ route-target import 7552:23688
+!
+ip vrf own_scadadlmns
+ rd 7552:52546
+ route-target export 7552:52546
+ route-target import 7552:52546
+!
+!
+!
+!
+no ip domain lookup
+
+ip multicast-routing 
+ip multicast-routing vrf VOD 
+ip multicast-routing vrf VRF_VOD_MSN 
+ip igmp vrf VOD ssm-map enable
+no ip igmp vrf VOD ssm-map query dns
+ip igmp vrf VOD ssm-map static SSM_RANGE 10.63.2.10
+ip igmp vrf VOD ssm-map static SSM_RANGE 10.63.2.11
+ip igmp vrf VOD ssm-map static SSM_RANGE 10.63.2.12
+ip igmp vrf VRF_VOD_MSN ssm-map enable
+no ip igmp vrf VRF_VOD_MSN ssm-map query dns
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE 10.63.2.10
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE 10.63.2.11
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE 10.63.2.12
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.6.102 172.23.6.102
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.6.105 172.23.6.105
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.6.134 172.23.6.134
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.50.3 172.23.50.3
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.50.4 172.23.50.4
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.50.5 172.23.50.5
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.51.3 172.23.51.3
+ip igmp vrf VRF_VOD_MSN ssm-map static SSM_RANGE_172.23.51.4 172.23.51.4
+ip igmp ssm-map enable
+no ip igmp ssm-map query dns
+ip igmp ssm-map static SSM_RANGE 10.63.2.10
+ip igmp ssm-map static SSM_RANGE 10.63.2.11
+ip igmp ssm-map static SSM_RANGE 10.63.2.12
+ipv6 unicast-routing
+ipv6 cef
+!
+!
+!
+!
+!
+!
+!
+mpls label mode all-vrfs protocol bgp-vpnv4 per-vrf
+mpls label protocol ldp
+ --More--         no mpls ip propagate-ttl 
+mpls ldp explicit-null
+mpls ldp graceful-restart
+mpls ldp session protection
+mpls ldp igp sync holddown 2000
+mpls ldp label
+ allocate global host-routes
+mpls ldp discovery targeted-hello accept
+mpls ldp discovery quick-start
+multilink bundle-name authenticated
+!
+table-map CPU
+ map from  0 to 6
+ map from  1 to 6
+ map from  2 to 6
+ map from  3 to 6
+ map from  4 to 6
+ map from  5 to 6
+ map from  6 to 6
+ map from  7 to 7
+ default copy
+!
+no l3-over-l2 flush buffers
+asr901-platf-multicast enable
+asr901-platf-frr enable
+asr901-storm-control-bpdu 1000
+cpu traffic qos prec table CPU
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+license udi pid A901-6CZ-FT-D sn CAT1828U16T
+license boot level AdvancedMetroIPAccess
+username viettel privilege 15 password 7 14011B0E18102F27
+username nockv3 privilege 6 password 7 14191D08071279
+bridge-domain 300 
+!
+controller E1 0/0
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/1
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/2
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/3
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/4
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/5
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/6
+ framing unframed 
+ cem-group 0 unframed
+!
+controller E1 0/7
+ forward-alarm ais
+ forward-alarm rai
+!
+!
+track 1 interface TenGigabitEthernet0/0 line-protocol
+!
+track 2 ip sla 3502
+!
+track 3 ip sla 3503
+!
+track 4 ip sla 3504
+!
+track 5 ip sla 3505
+!
+track 6 ip sla 3506
+!
+track 8 ip sla 3508
+!
+track 9 ip sla 3509
+!
+track 11 ip sla 3501
+!
+ip tcp path-mtu-discovery
+lldp run
+!
+class-map match-all 4G_DEMAND
+ match dscp af31  af32 
+class-map match-any TRUST4
+ match dscp cs4  af41  af42  af43 
+ match cos  4 
+ match mpls experimental topmost 4 
+class-map match-any TRUST5
+ match dscp ef 
+ match cos  5 
+ match mpls experimental topmost 5 
+class-map match-any TRUST6
+ match dscp cs6 
+ match cos  6 
+ match mpls experimental topmost 6 
+class-map match-all TRUST7
+ match mpls experimental topmost 7 
+ match dscp cs7 
+ match cos  7 
+class-map match-any TRUST1
+ match dscp cs1  af11  af12  af13 
+ match cos  1 
+ match mpls experimental topmost 1 
+class-map match-any TRUST2
+ match dscp cs2  af21  af22  af23 
+ match cos  2 
+ match mpls experimental topmost 2 
+class-map match-any TRUST3
+ match dscp cs3  af31  af32  af33 
+ match cos  3 
+ match mpls experimental topmost 3 
+class-map match-all 4G_SIG
+ match dscp cs6 
+class-map match-all EXP5
+ match qos-group 5
+class-map match-all EXP4
+ match qos-group 4
+class-map match-all EXP7
+ match qos-group 7
+class-map match-all 4G_VOICE
+ match dscp af42  ef 
+class-map match-all EXP6
+ match qos-group 6
+class-map match-all EXP1
+ match qos-group 1
+class-map match-all 3G_VOICE
+ match dscp ef  cs6 
+class-map match-all EXP3
+ match qos-group 3
+class-map match-all EXP2
+ match qos-group 2
+!
+policy-map Trust_Ingress
+ class TRUST6
+  set qos-group 6
+ class TRUST5
+  set qos-group 5
+ class TRUST4
+  set qos-group 4
+ class TRUST3
+  set qos-group 3
+ class TRUST2
+  set qos-group 2
+ class TRUST1
+  set qos-group 1
+policy-map VPN_L3_Ingress
+ class class-default
+  set mpls experimental imposition 3
+  set qos-group 3
+  set mpls experimental topmost 3
+policy-map TDM-Ingress
+ class class-default
+  set mpls experimental imposition 6
+  set qos-group 6
+policy-map VOD_Ingress
+ class class-default
+  set mpls experimental imposition 3
+  set qos-group 3
+policy-map VPN-L2-Ingress
+ class class-default
+  set mpls experimental topmost 3
+  set qos-group 3
+policy-map 4G_OAM
+ class class-default
+  set mpls experimental imposition 5
+  set qos-group 5
+policy-map 4G_Ingress
+ class 4G_SIG
+  set mpls experimental imposition 6
+  set qos-group 6
+ class 4G_VOICE
+  set mpls experimental imposition 5
+  set qos-group 5
+ class 4G_DEMAND
+  set mpls experimental imposition 3
+  set qos-group 3
+ class class-default
+  set mpls experimental imposition 2
+  set qos-group 2
+policy-map Queuing_Egress
+ class EXP6
+  priority percent 30
+ class EXP5
+  priority percent 70
+ class EXP4
+  bandwidth remaining percent 33 
+ class EXP3
+  bandwidth remaining percent 26 
+ class EXP2
+  bandwidth remaining percent 20 
+ class EXP1
+  bandwidth remaining percent 13 
+ class class-default
+  bandwidth remaining percent 8 
+  random-detect discard-class-based
+  random-detect discard-class 0 600 1024 1
+policy-map Shapping_Viba_Ingress
+ class class-default
+  police 184320000
+policy-map HSI_Ingress
+ class class-default
+ --More--           set mpls experimental topmost 0
+policy-map Khach_Hang
+ class class-default
+  police 196500
+policy-map Shapping_Viba_Egress
+ class class-default
+  police 184320000
+policy-map PQ2_Ingress
+ description VoIP, CTH, BTV, VPN VIP
+ class class-default
+  set mpls experimental imposition 5
+  set qos-group 5
+policy-map 3G_Ingress
+ class 3G_VOICE
+  set mpls experimental imposition 6
+  set qos-group 6
+ class class-default
+  set mpls experimental imposition 5
+  set qos-group 5
+policy-map VPN_L2_Ingress
+ class class-default
+  set mpls experimental topmost 3
+  set qos-group 3
+policy-map OAM_Ingress
+ class class-default
+  set mpls experimental imposition 3
+  set qos-group 3
+!
+pseudowire-class 2G-PW
+ encapsulation mpls
+!
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ description Service
+ ip address 10.18.129.64 255.255.255.255
+ ip pim sparse-mode
+ ip ospf network point-to-point
+!
+interface Loopback1
+ description OAM
+ ip vrf forwarding NMS
+ ip address 10.18.161.64 255.255.255.255
+!
+interface Loopback2
+ description PTP
+ ip address 10.18.193.64 255.255.255.255
+!
+interface Port-channel5
+ no ip address
+ negotiation auto
+!
+interface Port-channel7
+ description HCM0001ASW03_EVNB B  _172.21.12.131
+ mtu 9000
+ no ip address
+ no negotiation auto
+ storm-control broadcast level pps 100
+ storm-control multicast level pps 100
+ storm-control unicast level pps 100
+ service instance 35 ethernet
+  description DYNAMIC_GPON
+  encapsulation dot1q 35
+  rewrite ingress tag pop 1 symmetric
+  service-policy input HSI_Ingress
+  xconnect 10.18.255.6 20044001 encapsulation mpls
+   backup peer 10.18.255.5 20044002
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 36 ethernet
+  description VOD
+  encapsulation dot1q 36
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VOD_Ingress
+  bridge-domain 36 split-horizon group 0
+ !
+ service instance 37 ethernet
+  description VIETTEL_OFFICE
+  encapsulation dot1q 37
+  rewrite ingress tag pop 1 symmetric
+  service-policy input HSI_Ingress
+  xconnect 10.18.255.6 20044601 encapsulation mpls
+   backup peer 10.18.255.5 20044602
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 38 ethernet
+  description STATIC_GPON
+  encapsulation dot1q 38
+  rewrite ingress tag pop 1 symmetric
+  service-policy input HSI_Ingress
+  xconnect 10.18.255.6 20044201 encapsulation mpls
+   backup peer 10.18.255.5 20044202
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 73 ethernet
+  description NMS_DSLAM
+  encapsulation dot1q 73
+  rewrite ingress tag pop 1 symmetric
+  bridge-domain 73 split-horizon group 0
+ !
+ service instance 335 ethernet
+  description IP_PHONE
+  encapsulation dot1q 335
+  rewrite ingress tag pop 1 symmetric
+  service-policy input PQ2_Ingress
+  xconnect 10.18.255.6 20044401 encapsulation mpls
+   backup peer 10.18.255.5 20044402
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 1902 ethernet
+  description t008_ll_namctdlmntccnttdlm
+  encapsulation dot1q 1902
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093479 encapsulation mpls
+   backup peer 10.18.255.5 705093479
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2502 ethernet
+  description MULTISCREEN
+  encapsulation dot1q 2502
+  rewrite ingress tag pop 1 symmetric
+  service-policy input PQ2_Ingress
+  bridge-domain 2502 split-horizon group 0
+ !
+ service instance 2710 ethernet
+  description L3LL_t008_ll_namctdlmntctcnttd1
+  encapsulation dot1q 2710
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.5 910000051 encapsulation mpls
+   backup peer 10.18.255.6 910000051
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2713 ethernet
+  description t008_ll_tnhhtctdlmn
+  encapsulation dot1q 2713
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 990001287 encapsulation mpls
+   backup peer 10.18.255.5 990001287
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2730 ethernet
+  description L2VPN_CTY_DIENLUC
+  encapsulation dot1q 2730
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093606 encapsulation mpls
+   backup peer 10.18.255.5 705093606
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3101 ethernet
+  description t008_mw_zionctcp3
+  encapsulation dot1q 3101
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 1321123 encapsulation mpls
+   backup peer 10.18.255.5 1321123
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3102 ethernet
+  description t008_mw_doinhtq57
+  encapsulation dot1q 3102
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 1321303 encapsulation mpls
+   backup peer 10.18.255.5 1321303
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3104 ethernet
+  description t008_mw_vietteltctdvs4
+  encapsulation dot1q 3104
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 717013811 encapsulation mpls
+   backup peer 10.18.255.5 717013811
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3106 ethernet
+  description t008_mw_rvcctcptmdvvt32
+  encapsulation dot1q 3106
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 1326192 encapsulation mpls
+   backup peer 10.18.255.5 1326192
+   backup delay 0 120
+ --More--            mtu 9000
+ !
+ service instance 3511 ethernet
+  description L3VPN_VIB-HNI(DienLuc)
+  encapsulation dot1q 3511
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3511
+ !
+!
+interface Port-channel8
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet0/0
+ description 3G-3HC001
+ no ip address
+ load-interval 30
+ speed 100
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ service instance 10 ethernet
+  encapsulation untagged
+  service-policy input 3G_Ingress
+  bridge-domain 10
+ !
+!
+interface GigabitEthernet0/1
+ description 3G-PHC007
+ no ip address
+ load-interval 30
+ speed 100
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ service instance 20 ethernet
+  encapsulation untagged
+  service-policy input 3G_Ingress
+  bridge-domain 20
+ !
+!
+interface GigabitEthernet0/2
+ description HCM0001_DC3
+ no ip address
+ speed 100
+ no negotiation auto
+ service instance 71 ethernet
+  encapsulation untagged
+  service-policy input OAM_Ingress
+  bridge-domain 71 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/3
+ description Giam_Sat_QoS_SHE_HCM0001
+ no ip address
+ load-interval 30
+ speed 100
+ no negotiation auto
+ service instance 2502 ethernet
+  description VRF_VOD_MSN
+  encapsulation untagged
+  service-policy input VOD_Ingress
+  bridge-domain 2502 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/4
+ description HCM0001AS01_3100
+ mtu 9000
+ no ip address
+ media-type auto-select
+ no negotiation auto
+ storm-control broadcast level pps 100
+ storm-control multicast level pps 100
+ service instance 35 ethernet
+  description FTTH
+  encapsulation dot1q 35
+  rewrite ingress tag pop 1 symmetric
+  service-policy input HSI_Ingress
+  xconnect 10.18.255.6 705090024 encapsulation mpls
+   backup peer 10.18.255.5 705090024
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 36 ethernet
+  description IPTV
+  encapsulation dot1q 36
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VOD_Ingress
+  bridge-domain 36 split-horizon group 0
+ !
+ service instance 73 ethernet
+  description NMS_SWICTH
+  encapsulation dot1q 73
+  rewrite ingress tag pop 1 symmetric
+  service-policy input OAM_Ingress
+  bridge-domain 73 split-horizon group 0
+ !
+ service instance 335 ethernet
+  description IP_PHONE
+  encapsulation dot1q 335
+  rewrite ingress tag pop 1 symmetric
+  service-policy input PQ2_Ingress
+  xconnect 10.18.255.6 20044408 encapsulation mpls
+   backup peer 10.18.255.5 20044409
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 1900 ethernet
+  description t008_ll_tphcmvtplt
+  encapsulation dot1q 1900
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093402 encapsulation mpls
+   backup peer 10.18.255.5 705093402
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 1901 ethernet
+  description L3LL_wifioffload_HCM0001
+  encapsulation dot1q 1901
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  xconnect 10.18.255.6 705093478 encapsulation mpls
+   backup peer 10.18.255.5 705093478
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 1903 ethernet
+  description kimdo_ftth_hcm
+  encapsulation dot1q 1903
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 705083408 encapsulation mpls
+   backup peer 10.18.255.5 705083408
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2452 ethernet
+  description WIFI_OFFLOAD_HCM0001
+  encapsulation dot1q 2452
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 2452 split-horizon group 0
+ !
+ service instance 2502 ethernet
+  description VRF_VOD_MSN
+  encapsulation dot1q 2502
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VOD_Ingress
+  bridge-domain 2502 split-horizon group 0
+ !
+ service instance 2711 ethernet
+  description t008_ll_pvscttvt
+  encapsulation dot1q 2711
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 910000503 encapsulation mpls
+   backup peer 10.18.255.5 910000503
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3103 ethernet
+  description t008_mw_namnhtmcpxnkv1
+  encapsulation dot1q 3103
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 1322606 encapsulation mpls
+   backup peer 10.18.255.5 1322606
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3104 ethernet
+  description t008_mw_minhttqlhtkttphc
+  encapsulation dot1q 3104
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 1322763 encapsulation mpls
+   backup peer 10.18.255.5 1322763
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3327 ethernet
+  description t008_mw_hospitalityctcpgd24
+  encapsulation dot1q 3327
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 717013810 encapsulation mpls
+   backup peer 10.18.255.5 717013810
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3344 ethernet
+  description t008_mw_francea3
+  encapsulation dot1q 3344
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093623 encapsulation mpls
+   backup peer 10.18.255.5 705093623
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3509 ethernet
+  description t008_ow_thanhctcpckv1
+  encapsulation dot1q 3509
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+ --More--           bridge-domain 3509
+ !
+!
+interface GigabitEthernet0/5
+ description HCM0001AS02_5328
+ mtu 9000
+ no ip address
+ media-type auto-select
+ no negotiation auto
+ storm-control broadcast level pps 100
+ storm-control multicast level pps 100
+ storm-control unicast level pps 100
+ service instance 35 ethernet
+  description FTTH
+  encapsulation dot1q 35
+  rewrite ingress tag pop 1 symmetric
+  service-policy input HSI_Ingress
+  xconnect 10.18.255.6 705090025 encapsulation mpls
+   backup peer 10.18.255.5 705090025
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 36 ethernet
+  description IPTV
+  encapsulation dot1q 36
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VOD_Ingress
+  bridge-domain 36 split-horizon group 0
+ !
+ service instance 72 ethernet
+  description DCN_VIBA
+  encapsulation dot1q 72
+  rewrite ingress tag pop 1 symmetric
+  service-policy input OAM_Ingress
+  bridge-domain 72 split-horizon group 0
+ !
+ service instance 73 ethernet
+  description NMS_SWICTH
+  encapsulation dot1q 73
+  rewrite ingress tag pop 1 symmetric
+  service-policy input OAM_Ingress
+  bridge-domain 73 split-horizon group 0
+ !
+ service instance 2452 ethernet
+  description WIFI_OFFLOAD_HCM0001
+  encapsulation dot1q 2452
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 2452 split-horizon group 0
+ !
+ service instance 2502 ethernet
+  description VRF_VOD_MSN
+  encapsulation dot1q 2502
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VOD_Ingress
+  bridge-domain 2502 split-horizon group 0
+ !
+ service instance 2712 ethernet
+  description t008_ll_viettelctvt
+  encapsulation dot1q 2712
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 910000773 encapsulation mpls
+   backup peer 10.18.255.5 910000773
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2713 ethernet
+  description t008_ll_doicvthdcntq
+  encapsulation dot1q 2713
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 910000984 encapsulation mpls
+   backup peer 10.18.255.5 910000984
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 2714 ethernet
+  description t008_ll_doicvthdcntq1
+  encapsulation dot1q 2714
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN-L2-Ingress
+  xconnect 10.18.255.6 910000987 encapsulation mpls
+   backup peer 10.18.255.5 910000987
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3122 ethernet
+  description L2VPN_COMMONWEALTH_BANK
+  encapsulation dot1q 3122
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093605 encapsulation mpls
+   backup peer 10.18.255.5 705093605
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3501 ethernet
+  description VPN_THMILK_QUAN_1
+  encapsulation dot1q 3501
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3501
+ !
+ service instance 3502 ethernet
+  description VPN_NHUOB_LEDUAN
+  encapsulation dot1q 3502
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3502
+ !
+ service instance 3503 ethernet
+  description To_CMC_HoiSo_HCM
+  encapsulation dot1q 3503
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3503
+ !
+ service instance 3504 ethernet
+  description CITIBANK
+  encapsulation dot1q 3504
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3504
+ !
+ service instance 3505 ethernet
+  description VPN_NH_MIZUHO
+  encapsulation dot1q 3505
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  bridge-domain 3505
+ !
+ service instance 3506 ethernet
+  description VPN_NHVIETTHAI_HOISOQ1
+  encapsulation dot1q 3506
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3506
+ !
+ service instance 3507 ethernet
+  description L2VPN_MASAN
+  encapsulation dot1q 3507
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L2_Ingress
+  xconnect 10.18.255.6 705093601 encapsulation mpls
+   backup peer 10.18.255.5 705093601
+   backup delay 0 120
+   mtu 9000
+ !
+ service instance 3508 ethernet
+  description BIDV_ChuongDuong_noihat
+  encapsulation dot1q 3508
+  rewrite ingress tag pop 1 symmetric
+  service-policy input VPN_L3_Ingress
+  bridge-domain 3508
+ !
+!
+interface GigabitEthernet0/6
+ description eHCS0402
+ mtu 9000
+ no ip address
+ load-interval 30
+ media-type sfp
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ no keepalive
+ service instance 2636 ethernet
+  encapsulation dot1q 2636
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_Ingress
+  bridge-domain 2636 split-horizon group 0
+ !
+ service instance 2637 ethernet
+  encapsulation dot1q 2637
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_OAM
+  bridge-domain 2637 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/7
+ description HCM0001ASW03_EVNB_172.21.12.131
+ mtu 9000
+ no ip address
+ media-type auto-select
+ negotiation auto
+ storm-control broadcast level pps 100
+ storm-control multicast level pps 100
+ storm-control unicast level pps 100
+ qos-config scheduling-mode min-bw-guarantee
+ channel-group 7 mode active
+ lacp rate fast
+!
+interface GigabitEthernet0/8
+ description eHCS0401B
+ mtu 9000
+ no ip address
+ load-interval 30
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ no keepalive
+ service instance 2636 ethernet
+  encapsulation dot1q 2636
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_Ingress
+  bridge-domain 2636 split-horizon group 0
+ --More--          !
+ service instance 2637 ethernet
+  encapsulation dot1q 2637
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_OAM
+  bridge-domain 2637 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/9
+ description eHCS0401C
+ mtu 9000
+ no ip address
+ load-interval 30
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ no keepalive
+ service instance 2636 ethernet
+  encapsulation dot1q 2636
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_Ingress
+  bridge-domain 2636 split-horizon group 0
+ !
+ service instance 2637 ethernet
+  encapsulation dot1q 2637
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_OAM
+  bridge-domain 2637 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/10
+ description eHCS0402C
+ mtu 9000
+ no ip address
+ load-interval 30
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ no keepalive
+ service instance 2636 ethernet
+  encapsulation dot1q 2636
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_Ingress
+  bridge-domain 2636 split-horizon group 0
+ !
+ service instance 2637 ethernet
+  encapsulation dot1q 2637
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_OAM
+  bridge-domain 2637 split-horizon group 0
+ !
+!
+interface GigabitEthernet0/11
+ description eHCS0402B
+ mtu 9000
+ no ip address
+ load-interval 30
+ no negotiation auto
+ storm-control broadcast level pps 10
+ storm-control multicast level pps 10
+ storm-control unicast level pps 10
+ qos-config scheduling-mode min-bw-guarantee
+ no keepalive
+ service instance 2636 ethernet
+  encapsulation dot1q 2636
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_Ingress
+  bridge-domain 2636 split-horizon group 0
+ !
+ service instance 2637 ethernet
+  encapsulation dot1q 2637
+  rewrite ingress tag pop 1 symmetric
+  service-policy input 4G_OAM
+  bridge-domain 2637 split-horizon group 0
+ !
+!
+interface TenGigabitEthernet0/0
+ description HCM0001AGG02
+ dampening 30 750 2000 120
+ mtu 9000
+ no ip address
+ load-interval 30
+ carrier-delay msec 0
+ negotiation auto
+ qos-config scheduling-mode min-bw-guarantee
+ ethernet oam link-monitor receive-crc window 50
+ ethernet oam link-monitor receive-crc threshold high 250
+ ethernet oam link-monitor transmit-crc window 50
+ ethernet oam link-monitor transmit-crc threshold high 250
+ ethernet oam link-monitor high-threshold action error-disable-interface
+ ethernet oam
+ service-policy input Trust_Ingress
+ service-policy output Queuing_Egress
+ service instance 100 ethernet
+  encapsulation untagged
+  bridge-domain 100
+ !
+!
+interface TenGigabitEthernet0/1
+ description SGN0740SRT01_Te0/0
+ dampening 30 750 2000 120
+ mtu 9000
+ no ip address
+ load-interval 30
+ carrier-delay msec 0
+ no negotiation auto
+ qos-config scheduling-mode min-bw-guarantee
+ ethernet oam link-monitor receive-crc window 50
+ ethernet oam link-monitor receive-crc threshold high 250
+ ethernet oam link-monitor transmit-crc window 50
+ ethernet oam link-monitor transmit-crc threshold high 250
+ ethernet oam link-monitor high-threshold action error-disable-interface
+ ethernet oam
+ service-policy input Trust_Ingress
+ service-policy output Queuing_Egress
+ service instance 200 ethernet
+  encapsulation untagged
+  bridge-domain 200
+ !
+!
+interface CEM0/0
+ description HCM001_port_0
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090050 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090050 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface FastEthernet0/0
+ no ip address
+ shutdown
+!
+interface CEM0/1
+ description HCM001_port_0
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090051 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090051 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface CEM0/2
+ description HCM001_port_1
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090052 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090052 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface CEM0/3
+ description HCM001_port_1
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090053 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090053 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface CEM0/4
+ description HCM001_port_2
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090054 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090054 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface CEM0/5
+ description CHC007_port_1
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.135 705090055 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.136 705090055 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface CEM0/6
+ description CHC007_port_1
+ no ip address
+ cem 0
+  service-policy input TDM-Ingress
+  dejitter-buffer 8
+  xconnect 10.18.255.131 705090056 encapsulation mpls pw-class 2G-PW
+   backup peer 10.18.255.132 705090056 pw-class 2G-PW
+   backup delay 0 never
+ !
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ description 3G-3HC001
+ --More--          ip vrf forwarding 3G
+ ip address 10.121.0.6 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan20
+ description 3G-PHC007
+ ip vrf forwarding 3G
+ ip address 10.121.171.86 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan36
+ ip vrf forwarding VOD
+ ip address 10.170.104.254 255.255.255.0
+ ip helper-address 172.16.1.117
+ ip helper-address 172.16.1.118
+ ip verify unicast source reachable-via any
+ ip pim passive
+!
+interface Vlan71
+ description HCM0001_DC3
+ ip vrf forwarding VRF_SMARTCABINET
+ ip address 10.62.0.70 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan72
+ description VRF_DCN_VIBA
+ ip vrf forwarding VRF_DCN_VIBA
+ ip address 10.85.252.206 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan73
+ description NMS_DSLAM-SWITCH
+ ip vrf forwarding NMS_DSLAM
+ ip address 172.21.12.142 255.255.255.240
+ ip verify unicast source reachable-via any
+!
+interface Vlan100
+ description HCM0001AGG02_Vlan200
+ dampening 30 750 2000 120
+ mtu 9000
+ ip address 10.18.5.6 255.255.255.252
+ ip pim sparse-mode
+ ip pim bfd
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 044D02031B354942291400030004
+ ip ospf network point-to-point
+ ip ospf cost 100
+ carrier-delay msec 0
+ mpls ip
+ mpls ldp igp sync delay 25
+ bfd interval 100 min_rx 100 multiplier 3
+ no bfd echo
+!
+interface Vlan200
+ description SGN0740SRT01_Vlan100
+ dampening 30 750 2000 120
+ mtu 9000
+ ip address 10.18.5.9 255.255.255.252
+ ip pim sparse-mode
+ ip pim bfd
+ ip ospf authentication message-digest
+ ip ospf message-digest-key 1 md5 7 01050F014F1F030301414B1D0B0A
+ ip ospf network point-to-point
+ ip ospf cost 100
+ carrier-delay msec 0
+ mpls ip
+ mpls ldp igp sync delay 25
+ bfd interval 100 min_rx 100 multiplier 3
+ no bfd echo
+!
+interface Vlan1000
+ no ip address
+ shutdown
+!
+interface Vlan2452
+ description WIFI_OFFLOAD_HCM0001
+ ip vrf forwarding WIFI_OFFLOAD
+ ip address 10.240.13.222 255.255.255.240
+ ip verify unicast source reachable-via any
+!
+interface Vlan2502
+ description Multiscreen
+ ip vrf forwarding VRF_VOD_MSN
+ ip address 100.96.41.254 255.255.255.224
+ ip helper-address 172.23.75.8
+ ip helper-address 172.23.75.9
+ ip verify unicast source reachable-via any
+ ip pim passive
+!
+interface Vlan2636
+ description eHCS0401
+ ip vrf forwarding VRF_4G_Service
+ ip address 10.178.117.38 255.255.255.248 secondary
+ ip address 10.178.117.54 255.255.255.248 secondary
+ ip address 10.178.117.70 255.255.255.248 secondary
+ ip address 10.170.82.102 255.255.255.248 secondary
+ ip address 10.178.126.246 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan2637
+ description eHCS0401
+ ip vrf forwarding VRF_4G_OAM
+ ip address 10.188.117.38 255.255.255.248 secondary
+ ip address 10.188.117.54 255.255.255.248 secondary
+ ip address 10.188.117.70 255.255.255.248 secondary
+ ip address 10.171.82.102 255.255.255.248 secondary
+ ip address 10.188.126.246 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan3501
+ description VPN_THMILK_QUAN_1
+ ip vrf forwarding VRF_THMILK
+ ip address 10.63.250.13 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan3502
+ description t008_ow_namnhtnhhmtvhlv1
+ ip vrf forwarding VRF_VIETTINBANK
+ ip address 50.50.51.145 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan3503
+ description To_CMC_HoiSo_HCM
+ ip vrf forwarding VRF_CMC
+ ip address 172.17.180.1 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan3504
+ description CITIBANK
+ ip vrf forwarding VRF_CITIBANK
+ ip address 10.185.84.106 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan3505
+ description VPN_NH_MIZUHO
+ ip vrf forwarding VRF_VIETTINBANK
+ ip address 50.50.50.205 255.255.255.252
+ ip verify unicast source reachable-via any
+ shutdown
+!
+interface Vlan3506
+ description VPN_NHVIETTHAI_HOISOQ1
+ ip vrf forwarding VRF_NH_VIETTHAI
+ ip address 10.200.1.1 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan3508
+ description BIDV_ChuongDuong_noihat
+ ip vrf forwarding VRF_BIDV
+ ip address 172.16.66.1 255.255.255.252
+ ip verify unicast source reachable-via any
+!
+interface Vlan3509
+ description t008_ow_thanhctcpckv1
+ ip vrf forwarding L3VPN_SOGIAODICH_HCM
+ no ip address
+ ip verify unicast source reachable-via any
+ shutdown
+!
+interface Vlan3511
+ description L3VPN_VIB-HNI(DienLuc)
+ ip vrf forwarding L3VPN_VIB
+ ip address 172.22.0.6 255.255.255.248
+ ip verify unicast source reachable-via any
+!
+interface Vlan3888
+ ip unnumbered Loopback0
+ ip pim passive
+!
+router ospf 8
+ router-id 10.18.129.64
+ max-metric router-lsa on-startup wait-for-bgp
+ ispf
+ auto-cost reference-bandwidth 1000000
+ timers throttle spf 5 50 5000
+ timers throttle lsa 0 20 5000
+ timers lsa arrival 15
+ timers pacing lsa-group 10
+ timers pacing flood 5
+ timers pacing retransmission 10
+ passive-interface Loopback0
+ network 10.18.5.6 0.0.0.0 area 0.8.5.9
+ network 10.18.5.9 0.0.0.0 area 0.8.5.9
+ network 10.18.5.33 0.0.0.0 area 0.8.5.9
+ network 10.18.5.53 0.0.0.0 area 0.8.5.9
+ network 10.18.5.57 0.0.0.0 area 0.8.5.9
+ network 10.18.129.64 0.0.0.0 area 0.8.5.9
+ bfd all-interfaces
+ mpls ldp sync
+!
+router bgp 7552
+ bgp router-id 10.18.129.64
+ bgp log-neighbor-changes
+ neighbor SRT_TO_AGG peer-group
+ neighbor SRT_TO_AGG remote-as 7552
+ neighbor SRT_TO_AGG password 7 01050F014F1F030301414B1D0B0A
+ neighbor SRT_TO_AGG update-source Loopback0
+ neighbor SRT_TO_AGG fall-over route-map BGP_FALL_OVER
+ neighbor 10.18.255.5 peer-group SRT_TO_AGG
+ neighbor 10.18.255.6 peer-group SRT_TO_AGG
+ !
+ address-family ipv4
+  network 10.18.129.64 mask 255.255.255.255 route-map COMMUNITY_SRT_LOOPBACK0
+  network 10.18.193.64 mask 255.255.255.255 route-map COMMUNITY_SRT_PTP
+  neighbor SRT_TO_AGG send-community both
+  neighbor SRT_TO_AGG send-label
+  neighbor 10.18.255.5 activate
+  neighbor 10.18.255.6 activate
+ exit-address-family
+ !
+ address-family vpnv4
+ --More--           neighbor SRT_TO_AGG send-community both
+  neighbor 10.18.255.5 activate
+  neighbor 10.18.255.6 activate
+ exit-address-family
+ !
+ address-family vpnv6
+  neighbor SRT_TO_AGG send-community both
+  neighbor 10.18.255.5 activate
+  neighbor 10.18.255.6 activate
+ exit-address-family
+ !
+ address-family rtfilter unicast
+  neighbor SRT_TO_AGG send-community both
+  neighbor 10.18.255.5 activate
+  neighbor 10.18.255.6 activate
+ exit-address-family
+ !
+ address-family ipv4 vrf 3G
+  network 10.121.0.0 mask 255.255.255.248 route-map COMMUNITY_SRT_DD
+  network 10.121.171.80 mask 255.255.255.248 route-map COMMUNITY_SRT_DD
+  network 10.123.0.0 mask 255.255.255.248 route-map COMMUNITY_SRT_DD
+  network 10.123.171.80 mask 255.255.255.248 route-map COMMUNITY_SRT_DD
+ exit-address-family
+ !
+ address-family ipv4 vrf L3VPN_SOGIAODICH_HCM
+ exit-address-family
+ !
+ address-family ipv4 vrf L3VPN_VIB
+  network 172.22.0.0 mask 255.255.255.248 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf NMS
+  network 10.18.161.64 mask 255.255.255.255 route-map COMMUNITY_SRT_NMS
+ exit-address-family
+ !
+ address-family ipv4 vrf NMS_DSLAM
+  network 172.21.12.128 mask 255.255.255.240 route-map COMMUNITY_SRT_NMS
+ exit-address-family
+ !
+ address-family ipv4 vrf VOD
+  network 10.170.104.0 mask 255.255.255.0 route-map COMMUNITY_SRT_CD_TH
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_4G_OAM
+  network 10.171.82.96 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+  network 10.188.117.32 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+  network 10.188.117.48 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+  network 10.188.117.64 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+  network 10.188.126.240 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_4G_Service
+  network 10.170.82.96 mask 255.255.255.248 route-map COMMUNITY_SRT_4G
+  network 10.178.117.32 mask 255.255.255.248 route-map COMMUNITY_SRT_4G
+  network 10.178.117.48 mask 255.255.255.248 route-map COMMUNITY_SRT_4G
+  network 10.178.117.64 mask 255.255.255.248 route-map COMMUNITY_SRT_4G
+  network 10.178.126.240 mask 255.255.255.248 route-map COMMUNITY_SRT_4G
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_BIDV
+  network 172.16.66.0 mask 255.255.255.252 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_CITIBANK
+  network 10.185.84.104 mask 255.255.255.252 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_CMC
+  network 10.135.0.0 mask 255.255.0.0 route-map COMMUNITY_SRT_L3VPN
+  network 172.17.180.0 mask 255.255.255.248 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_DCN_VIBA
+  network 10.85.252.192 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+  network 10.85.252.200 mask 255.255.255.248 route-map COMMUNITY_SRT_NMS
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_NH_VIETTHAI
+  network 10.200.1.0 mask 255.255.255.252 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_SMARTCABINET
+  network 10.62.0.68 mask 255.255.255.252 route-map COMMUNITY_SRT_NMS
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_THMILK
+  network 10.50.30.0 mask 255.255.255.0 route-map COMMUNITY_SRT_L3VPN
+  network 10.50.80.0 mask 255.255.255.0 route-map COMMUNITY_SRT_L3VPN
+  network 10.50.81.0 mask 255.255.255.0 route-map COMMUNITY_SRT_L3VPN
+  network 10.63.250.12 mask 255.255.255.252 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_VIETTINBANK
+  network 50.50.51.144 mask 255.255.255.252 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf VRF_VOD_MSN
+  network 100.96.41.224 mask 255.255.255.224 route-map COMMUNITY_SRT_CD_TH
+ exit-address-family
+ !
+ address-family ipv4 vrf WIFI_OFFLOAD
+  network 10.240.13.208 mask 255.255.255.240 route-map COMMUNITY_SRT_L3VPN
+ exit-address-family
+ !
+ address-family ipv4 vrf own_scadadlmns
+ exit-address-family
+!
+ip forward-protocol nd
+!
+ip bgp-community new-format
+!
+ip ftp source-interface Loopback1
+ip ftp username internet_core
+ip ftp password 7 135445415F59522B0B
+no ip http server
+no ip http secure-server
+ip tftp source-interface Loopback1
+ip pim ssm range SSM_RANGE_GLOBAL
+ip pim vrf VOD ssm range SSM_RANGE
+ip pim vrf VRF_VOD_MSN ssm range SSM_RANGE_GLOBAL
+ip mroute vrf VOD 10.63.2.10 255.255.255.255 fallback-lookup global
+ip mroute vrf VOD 10.63.2.11 255.255.255.255 fallback-lookup global
+ip mroute vrf VOD 10.63.2.12 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.50.3 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.50.4 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.51.3 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.51.4 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.50.5 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.6.102 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.6.105 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 172.23.6.134 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 10.63.2.10 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 10.63.2.11 255.255.255.255 fallback-lookup global
+ip mroute vrf VRF_VOD_MSN 10.63.2.12 255.255.255.255 fallback-lookup global
+ip route vrf 3G 10.123.0.0 255.255.255.248 10.121.0.1 name OAM_NodeB_3HC001
+ip route vrf 3G 10.123.171.80 255.255.255.248 10.121.171.81 name OAM_NodeB_PHC007
+ip route vrf VRF_CMC 10.135.0.0 255.255.0.0 172.17.180.2 name To_CMC_HoiSo_HCM
+ip route vrf VRF_DCN_VIBA 10.85.252.192 255.255.255.248 10.85.252.201 name DCN_VIBA_HC0001
+ip route vrf VRF_THMILK 10.50.30.0 255.255.255.0 10.63.250.14 name VPN_THMILK_QUAN_1
+ip route vrf VRF_THMILK 10.50.80.0 255.255.255.0 10.63.250.14 name VPN_THMILK_QUAN_1
+ip route vrf VRF_THMILK 10.50.81.0 255.255.255.0 10.63.250.14 name VPN_THMILK_QUAN_1
+!
+ip access-list standard PERMIT_SSH_TELNET
+ permit 10.255.58.201
+ permit 10.60.5.46
+ permit 10.60.5.45
+ permit 10.60.5.24
+ permit 10.40.17.1
+ permit 10.60.97.100
+ permit 10.40.17.10
+ permit 10.59.115.2
+ permit 10.207.59.190
+ permit 10.74.25.27
+ permit 10.74.25.26
+ permit 10.60.97.4
+ permit 10.255.59.171
+ permit 10.42.66.10
+ permit 10.42.66.11
+ permit 10.42.66.12
+ permit 10.60.227.161
+ permit 10.73.225.213
+ permit 10.60.227.162
+ permit 10.60.97.44
+ permit 10.59.248.74
+ permit 10.58.137.60
+ permit 10.58.137.55
+ permit 10.74.225.49
+ permit 10.58.137.42
+ permit 10.60.7.166
+ permit 10.60.7.172
+ permit 10.74.224.1
+ permit 10.60.7.148
+ permit 10.60.7.150
+ permit 10.60.7.157
+ permit 192.168.176.111
+ permit 10.60.7.142
+ permit 10.41.232.9
+ permit 10.60.97.148
+ permit 10.58.137.125
+ permit 10.58.137.126
+ permit 10.60.129.125
+ permit 10.41.232.1
+ permit 10.60.129.122
+ permit 192.168.131.50
+ permit 10.58.71.149
+ permit 10.74.225.66
+ permit 192.168.176.48
+ permit 10.58.65.152
+ permit 10.255.59.39
+ permit 10.58.137.83
+ permit 10.255.59.36
+ permit 10.255.58.36
+ permit 10.255.58.35
+ permit 10.255.59.35
+ permit 10.255.59.60
+ permit 10.60.7.196
+ permit 10.58.65.137
+ permit 10.58.71.141
+ permit 10.255.58.51
+ permit 10.60.129.74
+ permit 10.60.129.73
+ permit 10.58.65.174 0.0.0.1
+ permit 10.60.87.52 0.0.0.3
+ permit 10.255.59.40 0.0.0.7
+ permit 10.255.59.48 0.0.0.7
+ permit 10.255.59.56 0.0.0.3
+ permit 10.58.137.122 0.0.0.1
+ permit 10.60.7.12 0.0.0.1
+ permit 10.60.7.200 0.0.0.7
+ permit 10.60.7.216 0.0.0.7
+ permit 10.60.7.224 0.0.0.15
+ --More--          permit 10.60.96.218 0.0.0.1
+ permit 192.168.176.42 0.0.0.1
+ permit 10.58.137.48 0.0.0.1
+ permit 10.58.137.56 0.0.0.3
+ permit 10.58.65.130 0.0.0.1
+ permit 10.60.7.192 0.0.0.3
+ permit 10.255.58.52 0.0.0.1
+ permit 10.60.131.76 0.0.0.1
+ permit 10.60.97.0 0.0.0.3
+ permit 10.60.97.40 0.0.0.3
+ permit 10.60.97.112 0.0.0.15
+ permit 10.205.33.184 0.0.0.7
+ permit 10.205.33.176 0.0.0.15
+ permit 10.205.35.0 0.0.0.63
+ permit 10.60.232.112 0.0.0.15
+ permit 10.60.232.128 0.0.0.63
+ permit 10.60.97.96 0.0.0.31
+ permit 10.255.59.96 0.0.0.31
+ permit 10.205.68.0 0.0.0.31
+ permit 10.254.139.144 0.0.0.7
+ permit 10.42.66.10 0.0.0.1
+ permit 10.60.129.72 0.0.0.3
+ip access-list standard SNMP_ACL
+ permit 10.207.59.190
+ permit 10.74.225.111
+ permit 10.74.225.112
+ permit 10.73.224.70
+ permit 10.73.224.69
+ permit 10.73.225.160 0.0.0.15
+ permit 10.73.225.176 0.0.0.15
+ permit 192.168.251.0 0.0.0.31
+ permit 10.74.225.96 0.0.0.31
+ permit 10.60.80.0 0.0.0.63
+ permit 10.205.33.176 0.0.0.15
+ permit 10.205.35.0 0.0.0.63
+ permit 10.60.232.112 0.0.0.15
+ permit 10.60.232.128 0.0.0.63
+ip access-list standard SNMP_PERMIT
+ permit 10.207.59.190
+ permit 10.205.33.176 0.0.0.15
+ permit 10.205.35.0 0.0.0.63
+ permit 10.205.68.0 0.0.0.31
+ permit 10.56.32.192 0.0.0.15
+ permit 10.60.232.112 0.0.0.15
+ permit 10.60.232.128 0.0.0.63
+ permit 10.60.80.0 0.0.0.63
+ permit 10.73.224.64 0.0.0.15
+ permit 10.73.225.160 0.0.0.31
+ permit 10.74.225.96 0.0.0.31
+ permit 192.168.251.0 0.0.0.31
+ip access-list standard SSM_RANGE
+ permit 239.2.0.0 0.0.0.127
+ permit 239.2.0.128 0.0.0.63
+ permit 239.2.1.0 0.0.0.127
+ permit 239.2.1.128 0.0.0.63
+ip access-list standard SSM_RANGE_10.63.1.12
+ permit 239.1.0.0 0.0.3.255
+ip access-list standard SSM_RANGE_10.63.1.6
+ permit 239.2.0.100
+ permit 239.2.0.0 0.0.0.63
+ permit 239.1.0.0 0.0.3.255
+ip access-list standard SSM_RANGE_10.63.1.9
+ permit 239.1.0.0 0.0.3.255
+ permit 239.2.0.60 0.0.0.3
+ permit 239.2.0.64 0.0.0.63
+ permit 239.2.0.128 0.0.0.127
+ip access-list standard SSM_RANGE_172.23.50.3
+ permit 239.12.252.0 0.0.0.63
+ip access-list standard SSM_RANGE_172.23.50.4
+ permit 239.12.252.64 0.0.0.63
+ip access-list standard SSM_RANGE_172.23.50.5
+ permit 239.12.251.0 0.0.0.255
+ip access-list standard SSM_RANGE_172.23.51.3
+ permit 239.12.252.128 0.0.0.63
+ip access-list standard SSM_RANGE_172.23.51.4
+ permit 239.12.252.192 0.0.0.63
+ip access-list standard SSM_RANGE_172.23.6.102
+ permit 239.12.1.0 0.0.0.7
+ip access-list standard SSM_RANGE_172.23.6.105
+ permit 239.12.1.8 0.0.0.7
+ip access-list standard SSM_RANGE_172.23.6.134
+ permit 239.12.1.16 0.0.0.7
+ip access-list standard SSM_RANGE_GLOBAL
+ permit 239.2.0.0 0.0.0.127
+ permit 239.2.0.128 0.0.0.63
+ permit 239.2.1.0 0.0.0.127
+ permit 239.2.1.128 0.0.0.63
+ permit 239.12.252.0 0.0.0.255
+ permit 239.12.251.0 0.0.0.255
+ permit 239.12.1.0 0.0.0.7
+ permit 239.12.1.8 0.0.0.7
+ permit 239.12.1.16 0.0.0.7
+ip access-list standard TELNET_ACL
+ permit 10.73.225.169
+ permit 10.60.5.46
+ permit 10.60.5.45
+ permit 10.58.15.20
+ permit 10.58.15.19
+ permit 10.58.15.18
+ permit 10.58.15.17
+ permit 10.58.15.16
+ permit 10.58.15.15
+ permit 10.58.15.14
+ permit 10.40.17.1
+ permit 10.58.15.13
+ permit 10.58.15.12
+ permit 10.60.97.100
+ permit 10.58.15.11
+ permit 10.40.17.10
+ permit 10.57.5.10
+ permit 10.60.97.27
+ permit 10.60.97.26
+ permit 10.60.97.3
+ permit 10.60.97.2
+ permit 10.60.97.1
+ permit 10.60.80.6
+ permit 10.60.80.7
+ permit 10.60.80.4
+ permit 10.60.80.5
+ permit 10.60.80.2
+ permit 10.60.80.3
+ permit 10.60.80.8
+ permit 10.60.80.9
+ permit 10.58.4.70
+ permit 10.58.4.67
+ permit 10.58.137.57
+ permit 10.58.137.56
+ permit 10.58.137.59
+ permit 10.58.137.58
+ permit 10.58.137.60
+ permit 10.58.137.49
+ permit 10.58.137.48
+ permit 192.168.251.24
+ permit 10.60.7.189
+ permit 10.60.7.191
+ permit 10.58.137.55
+ permit 10.60.7.190
+ permit 10.58.60.131
+ permit 10.74.225.49
+ permit 10.58.137.42
+ permit 192.168.176.64
+ permit 10.74.224.1
+ permit 10.73.224.1
+ permit 10.60.7.149
+ permit 10.60.7.148
+ permit 192.168.131.65
+ permit 192.168.176.111
+ permit 10.60.7.142
+ permit 10.58.137.121
+ permit 10.58.137.120
+ permit 10.58.137.123
+ permit 10.58.137.122
+ permit 10.58.137.125
+ permit 10.58.137.124
+ permit 10.30.137.88
+ permit 10.30.137.84
+ permit 10.30.137.87
+ permit 10.60.129.125
+ permit 10.58.137.117
+ permit 10.58.137.119
+ permit 10.58.137.118
+ permit 192.168.182.8
+ permit 192.168.131.50
+ permit 10.58.65.175
+ permit 10.58.65.174
+ permit 10.74.225.66
+ permit 192.168.176.48
+ permit 10.58.65.152
+ permit 10.60.7.193
+ permit 10.60.7.192
+ permit 10.60.7.195
+ permit 192.168.176.42
+ permit 192.168.176.43
+ permit 10.60.7.194
+ permit 10.58.65.130
+ permit 10.60.7.197
+ permit 10.60.7.196
+ permit 10.60.7.198
+ permit 10.58.65.137
+ permit 10.60.7.201
+ permit 10.58.65.136
+ permit 10.60.7.203
+ permit 10.60.7.202
+ permit 10.60.7.205
+ permit 10.60.7.204
+ permit 10.58.15.193
+ permit 10.73.225.160 0.0.0.15
+ permit 10.73.225.176 0.0.0.15
+ permit 10.60.97.28 0.0.0.3
+ permit 10.60.97.32 0.0.0.31
+ permit 10.60.97.112 0.0.0.15
+ permit 10.60.7.200 0.0.0.7
+ permit 10.60.7.12 0.0.0.3
+ permit 10.58.137.120 0.0.0.7
+ permit 10.60.96.216 0.0.0.7
+ permit 10.60.7.224 0.0.0.15
+ permit 10.60.7.208 0.0.0.15
+ permit 10.58.4.64 0.0.0.7
+!
+!
+ip prefix-list LOOPBACK_32 seq 10 permit 0.0.0.0/0 ge 32
+ip sla 1
+ udp-jitter 10.74.225.26 50506 source-ip 10.18.161.64
+ request-data-size 160
+ tos 80
+ verify-data
+ vrf NMS
+ frequency 30
+ip sla schedule 1 life forever start-time now
+ip sla 2
+ udp-jitter 10.18.252.106 50505 source-ip 10.121.0.6
+ --More--          request-data-size 160
+ tos 184
+ verify-data
+ vrf 3G
+ frequency 30
+ip sla schedule 2 life forever start-time now
+ip sla 3
+ udp-jitter 10.18.255.135 55000 source-ip 10.18.129.64
+ request-data-size 160
+ tos 184
+ verify-data
+ frequency 30
+ip sla schedule 3 life forever start-time now
+ip sla 4
+ udp-jitter 10.18.255.136 55000 source-ip 10.18.129.64
+ request-data-size 160
+ tos 184
+ verify-data
+ frequency 30
+ip sla schedule 4 life forever start-time now
+ip sla 3501
+ icmp-echo 10.63.250.14
+ vrf VRF_THMILK
+ip sla schedule 3501 life forever start-time now
+ip sla 3502
+ icmp-echo 50.50.51.146
+ vrf VRF_VIETTINBANK
+ip sla schedule 3502 life forever start-time now
+ip sla 3503
+ icmp-echo 172.17.180.2
+ vrf VRF_CMC
+ip sla schedule 3503 life forever start-time now
+ip sla 3504
+ icmp-echo 10.185.84.105
+ vrf VRF_CITIBANK
+ip sla schedule 3504 life forever start-time now
+ip sla 3505
+ icmp-echo 50.50.50.206
+ vrf VRF_VIETTINBANK
+ip sla schedule 3505 life forever start-time now
+ip sla 3506
+ icmp-echo 10.200.1.2
+ vrf VRF_NH_VIETTHAI
+ip sla schedule 3506 life forever start-time now
+ip sla 3508
+ icmp-echo 172.16.66.2
+ vrf VRF_BIDV
+ip sla schedule 3508 life forever start-time now
+ip sla 3509
+ icmp-echo 192.168.89.4
+ vrf L3VPN_SOGIAODICH_HCM
+ip sla schedule 3509 life forever start-time now
+logging history debugging
+logging trap notifications
+logging facility syslog
+logging source-interface Loopback1 vrf NMS
+logging host 10.73.224.65 vrf NMS
+logging host 10.73.224.68 vrf NMS
+logging host 192.168.95.246 vrf NMS
+logging host 10.73.225.168 vrf NMS
+logging host 10.73.225.169 vrf NMS
+logging host 10.73.225.170 vrf NMS
+logging host 10.73.225.171 vrf NMS
+logging host 10.73.225.166 vrf NMS
+logging host 10.73.225.179 vrf NMS
+logging host 10.73.225.180 vrf NMS
+logging host 10.73.225.181 vrf NMS
+logging host 10.74.225.116 vrf NMS
+logging host 10.74.225.115 vrf NMS
+logging host 10.60.80.2 vrf NMS
+logging host 10.60.80.3 vrf NMS
+logging host 10.60.80.4 vrf NMS
+logging host 10.60.80.5 vrf NMS
+logging host 10.60.80.6 vrf NMS
+logging host 10.60.80.7 vrf NMS
+logging host 10.60.80.8 vrf NMS
+logging host 10.60.80.9 vrf NMS
+logging host 10.205.68.202 vrf NMS
+logging host 10.74.225.106 vrf NMS
+logging host 10.74.225.107 vrf NMS
+logging host 10.74.225.108 vrf NMS
+logging host 10.74.225.109 vrf NMS
+logging host 10.74.225.110 vrf NMS
+!
+route-map COMMUNITY_SRT_DD permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2002
+!
+route-map COMMUNITY_SRT_LOOPBACK0 permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2000
+!
+route-map COMMUNITY_SRT_L3VPN permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2007
+!
+route-map COMMUNITY_SRT_CD_TH permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2003
+!
+route-map COMMUNITY_SRT_PTP permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2008
+!
+route-map COMMUNITY_SRT_NMS permit 10
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2010
+!
+route-map COMMUNITY_SRT_NMS permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2010
+!
+route-map BGP_FALL_OVER permit 10
+ match ip address prefix-list LOOPBACK_32
+ match source-protocol ospf 8
+!
+route-map COMMUNITY_SRT_4G permit 10
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2005
+!
+route-map COMMUNITY_SRT_4G permit 100
+ set local-preference 3000
+ set community 7552:74 7552:800 7552:2005
+!
+snmp-server community METRO_HCM_2014 RO SNMP_PERMIT
+snmp-server trap-source Loopback1
+snmp-server location VIETTEL
+snmp-server enable traps snmp authentication linkdown linkup coldstart warmstart
+snmp-server enable traps vrrp
+snmp-server enable traps pfr
+snmp-server enable traps ds1
+snmp-server enable traps transceiver all
+snmp-server enable traps call-home message-send-fail server-fail
+snmp-server enable traps eigrp
+snmp-server enable traps tty
+snmp-server enable traps ospf state-change
+snmp-server enable traps ospf errors
+snmp-server enable traps ospf retransmit
+snmp-server enable traps ospf lsa
+snmp-server enable traps ospf cisco-specific state-change nssa-trans-change
+snmp-server enable traps ospf cisco-specific state-change shamlink interface
+snmp-server enable traps ospf cisco-specific state-change shamlink neighbor
+snmp-server enable traps ospf cisco-specific errors
+snmp-server enable traps ospf cisco-specific retransmit
+snmp-server enable traps ospf cisco-specific lsa
+snmp-server enable traps bfd
+snmp-server enable traps bgp
+snmp-server enable traps bgp cbgp2
+snmp-server enable traps config-copy
+snmp-server enable traps config
+snmp-server enable traps config-ctid
+snmp-server enable traps dhcp
+snmp-server enable traps event-manager
+snmp-server enable traps hsrp
+snmp-server enable traps ipmulticast
+snmp-server enable traps isis
+snmp-server enable traps mpls rfc ldp
+snmp-server enable traps mpls ldp
+snmp-server enable traps mpls rfc traffic-eng
+snmp-server enable traps mpls traffic-eng
+snmp-server enable traps mpls fast-reroute protected
+snmp-server enable traps msdp
+snmp-server enable traps ospfv3 state-change
+snmp-server enable traps ospfv3 errors
+snmp-server enable traps slb real virtual csrp
+snmp-server enable traps syslog
+snmp-server enable traps aaa_server
+snmp-server enable traps memory bufferpeak
+snmp-server enable traps fru-ctrl
+snmp-server enable traps entity
+snmp-server enable traps mvpn
+snmp-server enable traps cpu threshold
+snmp-server enable traps pw vc
+snmp-server enable traps rsvp
+snmp-server enable traps ipsla
+snmp-server enable traps l2tun session
+snmp-server enable traps l2tun pseudowire status
+snmp-server enable traps netsync
+snmp-server enable traps flash insertion removal
+snmp-server enable traps ima
+snmp-server enable traps envmon
+snmp-server enable traps ethernet cfm cc mep-up mep-down cross-connect loop config
+snmp-server enable traps ethernet cfm crosscheck mep-missing mep-unknown service-up
+snmp-server enable traps ether-oam
+snmp-server enable traps rep
+snmp-server enable traps bridge newroot topologychange
+snmp-server enable traps stpx inconsistency root-inconsistency loop-inconsistency
+snmp-server enable traps vlancreate
+snmp-server enable traps vlandelete
+snmp-server enable traps license
+snmp-server enable traps cef resource-failure peer-state-change peer-fib-state-change inconsistency
+snmp-server enable traps nhrp nhs
+snmp-server enable traps nhrp nhc
+snmp-server enable traps nhrp nhp
+snmp-server enable traps nhrp quota-exceeded
+snmp-server enable traps ip local pool
+snmp-server enable traps gdoi gm-start-registration
+snmp-server enable traps gdoi gm-registration-complete
+snmp-server enable traps gdoi gm-re-register
+snmp-server enable traps gdoi gm-rekey-rcvd
+snmp-server enable traps gdoi gm-rekey-fail
+snmp-server enable traps gdoi ks-rekey-pushed
+snmp-server enable traps gdoi gm-incomplete-cfg
+snmp-server enable traps gdoi ks-no-rsa-keys
+snmp-server enable traps gdoi ks-new-registration
+snmp-server enable traps gdoi ks-reg-complete
+snmp-server enable traps ike policy add
+snmp-server enable traps ike policy delete
+snmp-server enable traps ike tunnel start
+snmp-server enable traps ike tunnel stop
+snmp-server enable traps ipsec cryptomap add
+ --More--         snmp-server enable traps ipsec cryptomap delete
+snmp-server enable traps ipsec cryptomap attach
+snmp-server enable traps ipsec cryptomap detach
+snmp-server enable traps ipsec tunnel start
+snmp-server enable traps ipsec tunnel stop
+snmp-server enable traps ipsec too-many-sas
+snmp-server enable traps bulkstat collection transfer
+snmp-server enable traps mpls vpn
+snmp-server enable traps mpls rfc vpn
+snmp-server enable traps vrfmib vrf-up vrf-down vnet-trunk-up vnet-trunk-down
+snmp-server enable traps ethernet cfm alarm
+snmp-server host 10.205.68.1 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.205.68.2 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.205.68.3 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.205.68.4 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.205.68.5 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.2 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.3 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.4 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.5 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.6 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.7 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.8 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.60.80.9 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.224.68 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.224.69 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.224.70 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.111 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.112 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.166 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.168 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.169 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.170 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.171 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.179 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.180 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.73.225.181 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.100 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.101 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.102 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.103 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.104 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.105 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.106 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.107 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.108 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.109 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.110 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.111 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.112 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.113 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 10.74.225.50 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 192.168.182.5 vrf NMS version 2c METRO_HCM_2014 
+snmp-server host 192.168.95.242 vrf NMS version 2c METRO_HCM_2014 
+snmp ifmib ifindex persist
+mpls ldp router-id Loopback0 force
+!
+tftp-server flash:asr901-universalk9-mz.154-3.S2.bin
+tftp-server flash:viettel_nm-2.tcl
+tftp-server flash:asr901-universalk9-mz-eng-sp-154-3S4V2
+!
+!
+!
+ipv6 access-list DENY_ANY
+ deny ipv6 any any
+!
+control-plane
+!
+environment monitor
+!
+line con 0
+line vty 0 4
+ access-class PERMIT_SSH_TELNET in vrf-also
+ privilege level 15
+ password 7 051D0F0A35584B05
+ private
+ ipv6 access-class DENY_ANY in
+ logging synchronous
+line vty 5 98
+ access-class PERMIT_SSH_TELNET in vrf-also
+ ipv6 access-class DENY_ANY in
+!
+exception crashinfo buffersize 128
+network-clock synchronization automatic
+network-clock synchronization mode QL-enabled
+network-clock input-source 5 interface ToP0/12
+network-clock quality-level rx QL-SEC interface ToP0/12
+network-clock revertive 
+ntp logging
+ntp source Loopback0
+ntp update-calendar
+ntp server 10.18.255.5 prefer
+ntp server 10.18.255.6
+!
+ptp clock ordinary domain 4 
+ time-properties handset timeScaleFALSE currentUtcOffsetValidFALSE leap59FALSE leap61FALSE 35
+ clock-port Slave slave profile g8265.1
+  transport ipv4 unicast interface Lo2 negotiation
+  clock source 10.18.227.138 1
+  clock source 10.18.227.182 2
+!
+event manager applet CRC_InterfaceMonitor
+ event tag if_1 interface name GigabitEthernet0/0 parameter input_errors_crc entry-op ge entry-val 10 entry-type increment poll-interval 1
+ trigger
+  correlate event if_1
+ action 1.0 syslog msg "CRC error on interface 3HC001"
+ action 2.0 snmp-trap strdata "CRC error on interface 3HC001"
+event manager applet MODIFY_BCM_REGISTERS
+ event syslog pattern "%SYS-5-RESTART" maxrun 300
+ action 1.0  cli command "enable"
+ action 2.0  wait 60
+ action 3.0  cli command "test platform bcm shell" pattern "BCM>"
+ action 3.1  cli command "modreg OP_QUEUE_CONFIG_CELL(0).xe0 Q_SHARED_LIMIT_CELL=3" pattern "BCM>"
+ action 3.2  cli command "modreg OP_QUEUE_CONFIG_CELL(0).xe1 Q_SHARED_LIMIT_CELL=3" pattern "BCM>"
+ action 90.0 cli command "quit" pattern "#"
+ action 91.0 cli command "exit"
+!
+end
+
+HCM0001SRT02#                          
+HCM0001SRT02#
+HCM0001SRT02#show ip ospf ne
+HCM0001SRT02#show ip ospf neighbor 
+
+Neighbor ID     Pri   State           Dead Time   Address         Interface
+10.18.129.69      0   FULL/  -        00:00:36    10.18.5.10      Vlan200
+10.18.255.5       0   FULL/  -        00:00:33    10.18.5.5       Vlan100
+HCM0001SRT02#show ip ospf inter
+HCM0001SRT02#show ip ospf interface vl
+HCM0001SRT02#show ip ospf interface vlan 100
+Vlan100 is up, line protocol is up 
+  Internet Address 10.18.5.6/30, Area 0.8.5.9, Attached via Network Statement
+  Process ID 8, Router ID 10.18.129.64, Network Type POINT_TO_POINT, Cost: 100
+  Topology-MTID    Cost    Disabled    Shutdown      Topology Name
+        0           100       no          no            Base
+  Transmit Delay is 1 sec, State POINT_TO_POINT, BFD enabled
+  Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+    oob-resync timeout 40
+    Hello due in 00:00:07
+  Supports Link-local Signaling (LLS)
+  Cisco NSF helper support enabled
+  IETF NSF helper support enabled
+  Can be protected by per-prefix Loop-Free FastReroute
+  Can be used for per-prefix Loop-Free FastReroute repair paths
+  Index 1/1, flood queue length 0
+  Next 0x0(0)/0x0(0)
+  Last flood scan length is 1, maximum is 8
+  Last flood scan time is 0 msec, maximum is 4 msec
+  Neighbor Count is 1, Adjacent neighbor count is 1 
+    Adjacent with neighbor 10.18.255.5
+  Suppress hello for 0 neighbor(s)
+  Cryptographic authentication enabled
+    Youngest key id is 1
+HCM0001SRT02#show ip ospf interface vlan 10000 200
+Vlan200 is up, line protocol is up 
+  Internet Address 10.18.5.9/30, Area 0.8.5.9, Attached via Network Statement
+  Process ID 8, Router ID 10.18.129.64, Network Type POINT_TO_POINT, Cost: 100
+  Topology-MTID    Cost    Disabled    Shutdown      Topology Name
+        0           100       no          no            Base
+  Transmit Delay is 1 sec, State POINT_TO_POINT, BFD enabled
+  Timer intervals configured, Hello 10, Dead 40, Wait 40, Retransmit 5
+    oob-resync timeout 40
+    Hello due in 00:00:04
+  Supports Link-local Signaling (LLS)
+  Cisco NSF helper support enabled
+  IETF NSF helper support enabled
+  Can be protected by per-prefix Loop-Free FastReroute
+  Can be used for per-prefix Loop-Free FastReroute repair paths
+  Index 2/2, flood queue length 0
+  Next 0x0(0)/0x0(0)
+  Last flood scan length is 1, maximum is 13
+  Last flood scan time is 0 msec, maximum is 4 msec
+  Neighbor Count is 1, Adjacent neighbor count is 1 
+    Adjacent with neighbor 10.18.129.69
+  Suppress hello for 0 neighbor(s)
+  Cryptographic authentication enabled
+    Youngest key id is 1
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#  show bgp sum
+HCM0001SRT02#show bgp sum
+BGP router identifier 10.18.129.64, local AS number 7552
+BGP table version is 2709, main routing table version 2709
+164 network entries using 23616 bytes of memory
+326 path entries using 26080 bytes of memory
+48/25 BGP path/bestpath attribute entries using 7680 bytes of memory
+790 BGP rrinfo entries using 31376 bytes of memory
+2 BGP AS-PATH entries using 48 bytes of memory
+144 BGP community entries using 4688 bytes of memory
+39 BGP extended community entries using 984 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 94472 total bytes of memory
+BGP activity 10656/7401 prefixes, 59495/53335 paths, scan interval 60 secs
+
+Neighbor        V           AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+10.18.255.5     4         7552  855938  902513     2709    0    0 1y29w         162
+10.18.255.6     4         7552  832461  877267     2709    0    0 1y26w         162
+HCM0001SRT02#        
+HCM0001SRT02#
+HCM0001SRT02#show ip route 10.18.129.69
+Routing entry for 10.18.129.69/32
+  Known via "ospf 8", distance 110, metric 101, type intra area
+  Last update from 10.18.5.10 on Vlan200, 7w0d ago
+  Routing Descriptor Blocks:
+  * 10.18.5.10, from 10.18.129.69, 7w0d ago, via Vlan200
+      Route metric is 101, traffic share count is 1
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#
+HCM0001SRT02#  
